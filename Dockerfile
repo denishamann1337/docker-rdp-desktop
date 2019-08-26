@@ -7,8 +7,7 @@ RUN apt-get update -y
 RUN apt-get update -y
 #RUN apt full-upgrade -y
 #RUN apt-get dist-upgrade -y
-RUN apt-get install -y bash wget curl unzip p7zip python python3 python-pip python3-pip ubuntu-desktop zsh openvpn sudo xrdp tigervnc-standalone-server inetutils-ping chromium-browser
-
+RUN apt-get install -y bash wget curl unzip p7zip python python3 python-pip python3-pip xubuntu-desktop zsh openvpn sudo xrdp tigervnc-standalone-server inetutils-ping
 # common downloads
 #RUN wget https://raw.githubusercontent.com/sormuras/bach/master/install-jdk.sh;chmod +x install-jdk.sh
 #RUN curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_64bit/session-manager-plugin.deb" -o "session-manager-plugin.deb"
